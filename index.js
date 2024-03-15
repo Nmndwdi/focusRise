@@ -81,6 +81,8 @@ let prevId;
 
 play.addEventListener('click',()=>{
     success.style.display='none'
+    texts[0].style.display='block'
+    texts[1].style.display='block'
     if(play.textContent==="Play")
     {
         if(start)
@@ -140,6 +142,8 @@ root.addEventListener('click',(e)=>{
                 play.textContent="Play"
             }
             success.style.display='block'
+            texts[0].style.display='none'
+            texts[1].style.display='none'
         }
     }
 })
