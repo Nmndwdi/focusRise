@@ -17,7 +17,22 @@
 
 #main-block{
     display: flex;
+    flex-direction: row;
     justify-content:center;
-    flex-wrap:wrap-reverse;
-    /* background-color: red; */
+}
+
+@media only screen and (max-width: 1000px) {
+    #main-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    #left-block {
+        margin-top: 25px;
+        margin-left: 0rem;
+        order: 2;
+    }
+
+    #root {
+        order: 1;
+    }
 }
