@@ -1,0 +1,23 @@
+#root{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: yellow; */
+}
+
+#header{
+    text-align: center;
+}
+
+#left-block{
+    margin-left: -19rem;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+#main-block{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap-reverse;
+    /* background-color: red; */
+}
